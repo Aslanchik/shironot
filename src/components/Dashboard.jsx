@@ -1,12 +1,8 @@
 import React from 'react';
 
 import SongContainer from './SongContainer';
-
-export interface DashboardProps {
-    
-}
  
-const Dashboard: React.FC<DashboardProps> = () => {
+const Dashboard = () => {
     return ( 
         <div className="dashboard">
             <SongContainer/>
