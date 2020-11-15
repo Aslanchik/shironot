@@ -28,7 +28,7 @@ nav {
 }
 
 .section {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .tabs .tab a {
@@ -43,4 +43,13 @@ nav {
 }
 .indicator {
   background-color: teal !important;
+}
+
+blockquote {
+  border-left: 0 !important;
+  border-right: 5px solid teal !important;
+}
+
+.rhap_button-clear:focus {
+  background-color: white !important;
 }
